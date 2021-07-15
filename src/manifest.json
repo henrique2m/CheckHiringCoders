@@ -1,0 +1,28 @@
+{
+  "name": "Check Hiring Coders",
+  "author": "Henrique Moreira",
+  "description": "Monitorar atividades que já foram realizado no Hiring Coders",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ],
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Check Hiring Coders",
+    "default_icon": "assets/CheckHiringCodersIconCircle.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "./js/content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
