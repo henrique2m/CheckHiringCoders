@@ -14,7 +14,7 @@ Oferecer um  retorno visual para as atividades que já foram finalizadas no Hiri
  git clone https://github.com/henrique2m/CheckHiringCoders.git
  ~~~
 
- - [x] Procure o painel de gerenciamento de extensões do Google Chrome, se estiver utilizando o Chrome agora [CLICK AQUI](chrome://extensions/ "chrome-extensions");
+ - [x] Procure o painel de gerenciamento de extensões do Google Chrome, se estiver utilizando o Chrome agora copie o cole o caminho a seguir: (**`chrome://extensions/`**), na barra de URLs;
 
  - [x] Será necessário habilitar o  (**`Modo do desenvolvedor`**);
 
