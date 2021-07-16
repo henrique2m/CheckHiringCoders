@@ -1,7 +1,7 @@
 {
   "name": "Check Hiring Coders",
   "author": "Henrique Moreira",
-  "description": "Monitorar atividades que já foram realizado no Hiring Coders",
+  "description": "Oferecer um retorno visual para as atividades que já foram finalizadas no Hiring Coders, de forma fácil e intuitiva.",
   "version": "1.0",
   "permissions": [
     "tabs",
